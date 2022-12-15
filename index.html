@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aiaulym</title>
+    <style>
+        body{
+            background-color: rgb(216, 194, 150);
+        }
+    </style>
+</head>
+<body>
+    <img src="../7/photo_5213088423664010522_y.jpg" alt="" width="500px" height="200px" style="margin-left:300px;">
+
+    <div style="border-style:solid; width: 500px; text-align: center; margin-top: 50px; margin-left: 300px; ">
+       
+<h1 style="text-align: center;">Registration</h1>
+
+
+ <h3>IIN: <input type="text" name="lname" autofocus></h3>
+<h3> First name: <input type="text" name="lname" autocomplete="off"></h3>
+
+<h3>Last name: <input type="text" name="lname" ></h3>
+
+<h3>Inter your kurs: <select name="kurs" id="123">
+    <option value="...">1</option>
+    <option value="2">2</option>
+    <option value="3">3</option>
+    <option value="4">4</option>
+</select></h3>
+
+<h3>ID: <input type="text" name="lname" id="idnumber" maxlength="8"></h3>
+
+<h3>Birthday: <input type="date" name="bday" placeholder="yyyy-mm-dd" max="31-12-2002" min="31-12-2022"> </h3>
+
+
+<h3>Gender: <input type="radio" name="gender" >Male <input type="radio" name="gender1"> Female </h3> 
+<h3>Do you receive government assistance payments?</h3>
+ <input type="checkbox" name="yes" value="yes">Yes,i do 
+ <input type="checkbox" name="no" value="no"> No,i don't
+<h3>Receipt of your passport <input type="file" id="myfile" name="myfile"></h3><br>
+<input type="submit">
+</div>
+
+<script> document.getElementById("idnumber").oninput = function(){ 
+    if(this.value.length > 1){ 
+    if(this.value.charAt(0)!=2 || this.value.charAt(1) != 1){ 
+                this.value =this.value.replace(this.value, '2'); 
+     } 
+    }else { 
+                 if(this.value.charAt(0) != 2){ 
+            this.value = this.value.replace(this.value, ''); 
+        } 
+    } 
+    } 
+</script>
+
+
+
+</body>
+</html>
