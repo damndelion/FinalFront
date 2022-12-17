@@ -1,63 +1,122 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aiaulym</title>
-    <style>
-        body{
-            background-color: rgb(216, 194, 150);
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="index.css" >
+    <script src="index.js"></script>
+	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <title>Main Page</title>
+    
 </head>
 <body>
-    <img src="../7/photo_5213088423664010522_y.jpg" alt="" width="500px" height="200px" style="margin-left:300px;">
-
-    <div style="border-style:solid; width: 500px; text-align: center; margin-top: 50px; margin-left: 300px; ">
-       
-<h1 style="text-align: center;">Registration</h1>
-
-
- <h3>IIN: <input type="text" name="lname" autofocus></h3>
-<h3> First name: <input type="text" name="lname" autocomplete="off"></h3>
-
-<h3>Last name: <input type="text" name="lname" ></h3>
-
-<h3>Inter your kurs: <select name="kurs" id="123">
-    <option value="...">1</option>
-    <option value="2">2</option>
-    <option value="3">3</option>
-    <option value="4">4</option>
-</select></h3>
-
-<h3>ID: <input type="text" name="lname" id="idnumber" maxlength="8"></h3>
-
-<h3>Birthday: <input type="date" name="bday" placeholder="yyyy-mm-dd" max="31-12-2002" min="31-12-2022"> </h3>
-
-
-<h3>Gender: <input type="radio" name="gender" >Male <input type="radio" name="gender1"> Female </h3> 
-<h3>Do you receive government assistance payments?</h3>
- <input type="checkbox" name="yes" value="yes">Yes,i do 
- <input type="checkbox" name="no" value="no"> No,i don't
-<h3>Receipt of your passport <input type="file" id="myfile" name="myfile"></h3><br>
-<input type="submit">
-</div>
-
-<script> document.getElementById("idnumber").oninput = function(){ 
-    if(this.value.length > 1){ 
-    if(this.value.charAt(0)!=2 || this.value.charAt(1) != 1){ 
-                this.value =this.value.replace(this.value, '2'); 
-     } 
-    }else { 
-                 if(this.value.charAt(0) != 2){ 
-            this.value = this.value.replace(this.value, ''); 
-        } 
-    } 
-    } 
-</script>
-
-
-
+    <div class="head">
+        <div class="sub-head">
+            <a class="logo" href="index.html">ethnic</a>
+            <textarea placeholder="Search for product or brand" class="search"></textarea>
+        </div>
+        <div class="sub-head2">
+            <i id="icon" class="bi bi-person-circle"></i>
+            <a class="menu-text">My account</a>
+            <a class="menu-text">Help</a>
+            <i id="icon" class="bi bi-bag"></i>
+            <i id="icon" class="bi bi-heart"></i>
+            <button id="button" class="btn-log"  type="button"><a class="login" href="login.html">Log in</a></button>
+            <button id="button" class="btn-sig"><a class="login" href="login.html">Sign up</a></button>
+        </div>
+    </div>
+    <div class="menu">
+        <h4 id="option"><a class="login" href="boy.html">Boy</a></h4>
+        <h4 id="option"><a class="login" href="girl.html">Girl</a></h4>
+        <h4 id="option"><a class="login" href="men.html">Men</a></h4>
+        <h4 id="option"><a class="login" href="women.html">Women</a></h4>
+        <h4 id="option"><a class="login" href="home.html">Home</a></h4>
+        <h4 id="option"><a class="login" href="sizing.html">Sizing</a></h4>
+        <h4 style="color:goldenrod" id="option">Sales</h4>
+    </div>
+    <div class="imagies">
+        <img src="img/img1.jpeg" class="img-1" alt="image">
+        <img src="img/img2.jpeg" class="img-1" alt="image">
+        <img src="img/img6.png" class="img-1" alt="image">
+    </div>
+    
+      
+    <div class="imagies-text">
+        <a class="img-text" href="women.html">Women's taditional clothes</a>
+        <a class="img-text" href="women.html">Women's winter clothes</a>
+        <a class="img-text" href="men.html">Men's fashion clothes</a>
+    </div>
+    <div class="imagies-text">
+        <a class="img-text" href="index.html">Shop now</a>
+        <a class="img-text" href="index.html">Shop now</a>
+        <a class="img-text" href="index.html">Shop now</a>
+    </div>
+    <div class="img-ticker">
+        <img id="logo" src="img/logo1.png" class="logo" alt="logo">
+        <img id="logo" src="img/logo2.jpeg" class="logo" alt="logo">
+        <img id="logo" src="img/logo4.jpeg" class="logo" alt="logo">
+        <img id="logo" src="img/logo5.png" class="logo" alt="logo">
+        <img id="logo" src="img/logo6.png" class="logo" alt="logo">
+        <img id="logo" src="img/logo7.png" class="logo" alt="logo">  
+        
+        
+    </div>
+    <div class="middle">
+        <img src="img/img8.jpeg" class="img-1" alt="image">
+        <div class="sub-middle">
+            <h1 class="sub-middle2">Summer Collection</h1>
+            <h4 class="sub-middle3">Shop stylish national clothes, womens and</h4>
+            <h4 class="sub-middle3">girls Clothes and Accessories</h4>
+            <button id="middle-btn" class="btn-log"><a class="login" href="index.html">Shop now</a></button>
+        </div>
+    </div>
+    <div class="imagies">
+        <img src="img/img4.jpeg" class="img-1" alt="image">
+        <img src="img/img5.jpeg" class="img-1" alt="image">
+        <img src="img/img7.jpeg" class="img-1" alt="image">
+    </div>
+    <div class="imagies-text">
+        <a class="img-text" href="women.html">Women's taditional clothes</a>
+        <a class="img-text" href="women.html">Women's taditional clothes</a>
+        <a class="img-text" href="women.html">Women's taditional clothes</a>
+    </div>
+    <div class="imagies-text">
+        <a class="img-text" href="index.html">Shop now</a>
+        <a class="img-text" href="index.html">Shop now</a>
+        <a class="img-text" href="index.html">Shop now</a>
+    </div>
+    <hr>
+    <p style="text-align:center">Our Social Networks</p>
+    <div class="social">
+        <i id="icon2" class="bi bi-instagram"></i>
+        <i id="icon2" class="bi bi-facebook"></i>
+        <i id="icon2" class="bi bi-pinterest"></i>
+        <i id="icon2" class="bi bi-twitter"></i>
+        <i id="icon2" class="bi bi-twitch"></i>
+        <i id="icon2" class="bi bi-discord"></i>
+    </div>
+    <hr>
+    <div class="bottom">
+        <div class="bottom1">
+            <a class="top">Help</a>
+            <a class="others">Returns Information</a>
+            <a class="others">Shipping Information</a>
+            <a class="others">Contact us</a>
+        </div>
+        <div class="bottom1">
+            <a class="top">Privacy & Legal</a>
+            <a class="others">Privacy Policy</a>
+            <a class="others">Terms & Condition</a>
+        </div>
+        <div class="bottom1">
+            <a class="top">Other Services</a>
+            <a class="others">Media and Press</a>
+            <a class="others">The company</a>
+            <a class="others">Job Opportunitys</a>
+        </div>
+    </div>
 </body>
 </html>

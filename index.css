@@ -1,0 +1,237 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+img {
+    max-width:100%
+}
+.head{
+    display: inline-flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    background-color: black;
+    width: 100%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+textarea::placeholder {
+    font-size: 1vw;
+}
+
+.sub-head{
+    display: inline-flex;
+    justify-content: flex-start;
+    background-color: black;
+    width: 100%;
+}
+.sub-head2{
+    display: inline-flex;
+    justify-content: flex-end;
+    background-color: black;
+    width: 100%;
+}
+.logo{
+    display: inline;
+    margin-left: 8%;
+    color: white;
+    text-decoration: none;
+    font-size:3vw;
+    width: auto;
+
+}
+.logo2{
+    margin-left: 8%;
+    color: white;
+    text-decoration: none;
+    font-size:3vw;
+    width: auto;
+}
+#button {
+    font-size: 1vw;
+}
+.logo:hover {
+    text-decoration: none;
+    color:white
+
+}
+.search {
+    margin-left: 8%;
+    width: 40%;
+    height: 70%;
+}
+#icon {
+    color: white;
+    font-size: 2vw;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+#icon2 {
+    font-size: 2vw;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.menu-text{
+    color: white;
+    text-decoration: none;
+    font-size:1.2vw;
+    margin-right: 2%;
+}
+.menu-text:hover {
+    text-decoration: none;
+    color:white
+
+}
+.menu {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0.5%;
+}
+#option {
+    font-size:1.5vw;
+    text-decoration: none;
+    
+}
+#option:hover {
+    background-color: white;
+    color:black;
+}
+.imagies {
+    margin-left: 4%;
+    margin-right: 4%;
+    margin-top: 4%;
+    display: flex;
+    justify-content: space-around;
+}
+img {
+    width: 23%;     
+}
+.imagies-text {
+    margin-right: 4%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2vw;
+}
+.img-text {
+    color: black;
+    text-decoration: none;
+}
+#logos {
+    margin: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo {
+    width: 10%;
+}
+.middle {
+    margin: 3%;
+    background-color:dimgray;
+    display: flex;
+    justify-content: space-around;
+    word-wrap: normal
+}
+.sub-middle2 {
+    color: white;
+    font-size: 4vw;
+}
+.sub-middle3 {
+    color: lightgray;
+    font-size: 3vw;
+
+}
+.sub-middle {
+    margin-top: 2%;
+    text-align: center;
+}
+#middle-btn {
+    margin-top: 10%;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.bottom {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    padding-bottom: 5%;
+}
+.bottom1 {
+    display: flex;
+    flex-direction: column;
+}
+.top {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 2vw;
+}
+.top:hover {
+    color:black;
+    text-decoration: none;
+}
+.others {
+    color: black;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 1.5vw;
+
+}
+.others:hover {
+    color: black;
+
+}
+.login {
+    color:white;
+    text-decoration: none;
+    font-size:1.5vw ;
+}
+.login:hover {
+    color:black;
+    background-color: white;
+    text-decoration: none;
+}
+.btn-log{
+    background-color: #1bb341;
+    width: 8vw;
+    height: 4vw;
+}
+.btn-sig{
+    background-color: grey;
+    width: 8vw;
+    height: 4vw;
+
+}
+.img-1 {
+    width: 25vw;
+}
+@keyframes ticker-kf {
+    0% {
+      transform: translate3d(94%, 0, 0);
+      overflow:hidden;
+    }
+    100% {
+      transform: translate3d(-94%, 0, 0);
+    }
+  }
+  
+  .img-ticker {
+      
+    animation: ticker-kf 25s linear infinite;
+    display: flex;
+    justify-content: space-around;
+  }
+
+
