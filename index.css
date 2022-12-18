@@ -4,6 +4,10 @@ body {
     margin: 0;
     padding: 0;
 }
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 img {
     max-width:100%
 }
@@ -109,7 +113,9 @@ textarea::placeholder {
     justify-content: space-around;
 }
 img {
-    width: 23%;     
+    width: 23%;  
+    margin: 10px;
+          padding: 5px;   
 }
 .imagies-text {
     margin-right: 4%;
@@ -216,6 +222,15 @@ img {
 }
 .img-1 {
     width: 25vw;
+
+}
+.progress-bar {
+    background: #1bb341;
+    height: 1vw;
+    width: 0%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 @keyframes ticker-kf {
     0% {
@@ -233,5 +248,17 @@ img {
     display: flex;
     justify-content: space-around;
   }
+  .scroll {
+    display: flex;
+    justify-content: space-between;
+  background: white none repeat scroll 0 0;
+  border: 3px solid #666;
+  margin: auto;
+  padding: 5px;
+  position: relative;
+  width: 90%;
+  height: 18%;
+  overflow: auto;
+}
 
 
