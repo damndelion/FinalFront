@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="sizing.css">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+		
+		<title>KAZAKHSTAN STORE</title>
+
+	</head>
+	<body>
+
+		
+			<div class="container">
+		
+	
+				<div class="navbar">
+
+					<div class="logo">
+						<img src="C:\Users\HP\Pictures\Saved Pictures\images/kazak.png" width="200px">	
+					</div>
+
+		 			<nav>
+		 	 			<ul id="MenuItems">
+		 		 			<li><a href="midka.htm" class="btt">HOME</a></li>
+		 		 			<li><a href="Allproducts.htm" class="btt">PRODUCTS</a></li>
+		 		 			<li><a href="" class="btt">ABOUT</a></li>
+		 		 			<li><a href="table.htm" class="btt">CONTACT</a></li>
+		 		 			<li><a href="" class="btt">ACCOUNT</a></li>
+		 	 			</ul>
+	    		</nav>
+
+					<img src="C:\Users\HP\Pictures\Saved Pictures\images/cart.png" width="30px" height="30px">
+					<img src="C:\Users\HP\Pictures\Saved Pictures\images/menu.png" class="menu-icon" onclick="menutoggle()">
+				</div>
+
+
+ 			</div>
+   
+
+  <!-- ---------------------------------------- -->
+  <div class="small-container single-product">
+  	<div class="row">
+  		<div class="col-2">
+  			<img src="C:\Users\HP\Pictures\Saved Pictures/img7.jpeg" width="100%" id="ProductImg">
+
+  			<div class="small-img-row">
+
+  		
+  				<div class="small-img-col">
+  					<img src="C:\Users\HP\Pictures\Saved Pictures/img7.jpeg" width="100%"
+  					class="small-img">
+  				</div>
+  				<div class="small-img-col">
+  					<img src="C:\Users\HP\Pictures\Saved Pictures/img4.jpeg" width="100%"
+  					class="small-img">
+  				</div>
+  				
+  			</div>
+
+  		</div>
+  		<div class="col-2">
+  			<p>Clothes</p>
+  			<h1>KAZAHSTAN Printed Clothes for girls</h1>
+  			<h4>$5000.00</h4>
+  			<select>
+  				<option>Select Size</option>
+  				<option>XXL</option>
+  				<option>XL</option>
+  				<option>Large</option>
+  				<option>Medium</option>
+  				<option>Small</option>
+  			</select>
+  			<input type="number" value="1">
+  			
+
+  			<h3>Product Details <i class="fa fa-indent"></i></h3>
+  			<br>
+  			<p>Give your summer wardrobe a style upgrade with the HRX Men's Active T-shirt. Team it with a pair of shorts for your morning workout or a denims for an evening out with the guys.</p>
+  		</div>
+  	</div>
+  </div>
+
+  <!-- --------------------------- -->
+  <div class="small-container">
+  	<div class="row row-2">
+  		<h2>Related Products</h2>
+  		<p>View More</p>
+  	</div>
+  </div>
+
+<!-- -------------------------- -->
+<!-- --------------------------------------- -->
+
+<div class="small-container">
+  <div class="row">
+		<div class="col-4">
+			<img src="C:\Users\HP\Pictures\Saved Pictures/img1.jpeg" height="255px">
+			<h4>Red Printed Sneaker</h4>
+			<div class="rating">				
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>$4000.00</p>
+		</div>
+
+		<div class="col-4">
+			<img src="C:\Users\HP\Pictures\Saved Pictures/img5.jpeg" height="255px">
+			<h4>Red Printed Watch</h4>
+			<div class="rating">				
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>$5500.00</p>
+		</div>
+
+		<div class="col-4">
+			<img src="C:\Users\HP\Pictures\Saved Pictures\images/product11.jpg" height="255px">
+			<h4>Red Printed T-shirt</h4>
+			<div class="rating">				
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-half-o"></i>
+			</div>
+			<p>$4500.00</p>
+		</div>
+
+		<div class="col-4">
+			<img src="C:\Users\HP\Pictures\Saved Pictures\images/product12.jpg" height="255px">
+			<h4>Red Printed T-shirt</h4>
+			<div class="rating">				
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star"></i>
+				<i class="fa fa-star-o"></i>
+			</div>
+			<p>$3000.00</p>
+
+		</div>
+	</div>
+		
+  </div>
+
+  
+  <!-- --------- -->
+
+  
+
+  <script>
+  	var MenuItems = document.getElementById("MenuItems");
+  	MenuItems.style.maxHeight = "0px";
+  	function menutoggle(){
+  		// body...
+  		if(MenuItems.style.maxHeight=="0px"){
+  			MenuItems.style.maxHeight="200px"
+  		}
+  		else{
+  			MenuItems.style.maxHeight="0px"
+  		}
+  	}
+  </script>
+
+  <!-- ---------------- -->
+
+  <script>
+  	var ProductImg=document.getElementById("ProductImg");
+  	var SmallImg=document.getElementsByClassName("small-img");
+  		SmallImg[0].onclick=function(){
+  			ProductImg.src=SmallImg[0].src;
+  		}
+  		SmallImg[1].onclick=function(){
+  			ProductImg.src=SmallImg[1].src;
+  		}
+  		SmallImg[2].onclick=function(){
+  			ProductImg.src=SmallImg[2].src;
+  		}
+  		SmallImg[3].onclick=function(){
+  			ProductImg.src=SmallImg[3].src;
+  		}
+  </script>
+
+
+</body>
+</html>
