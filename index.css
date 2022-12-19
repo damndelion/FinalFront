@@ -3,6 +3,7 @@ body {
     line-height: 1.5;
     margin: 0;
     padding: 0;
+    background-color: rgb(221, 204, 183)
 }
 html, body {
     max-width: 100%;
@@ -58,7 +59,7 @@ textarea::placeholder {
 }
 .logo:hover {
     text-decoration: none;
-    color:white
+    color:#e3a252;
 
 }
 .search {
@@ -102,7 +103,6 @@ textarea::placeholder {
     
 }
 #option:hover {
-    background-color: white;
     color:black;
 }
 .imagies {
@@ -200,21 +200,34 @@ img {
 
 }
 .login {
-    color:white;
+    color:rgb(221, 204, 183);
     text-decoration: none;
     font-size:1.5vw ;
 }
 .login:hover {
-    color:black;
-    background-color: white;
+    color:#e3a252;
+    font-size:x-large;
+
+}
+.login2 {
+    color:white;
+    text-decoration: none;
+    font-size:1.5vw ;
+}
+.login2:hover {
     text-decoration: none;
 }
 .btn-log{
+    color: white;
     background-color: #1bb341;
     width: 8vw;
     height: 4vw;
 }
+.btn-log:hover {
+    text-decoration: none;
+}
 .btn-sig{
+    color: white;
     background-color: grey;
     width: 8vw;
     height: 4vw;
@@ -251,7 +264,7 @@ img {
   .scroll {
     display: flex;
     justify-content: space-between;
-  background: white none repeat scroll 0 0;
+  background: rgb(221, 204, 183) none repeat scroll 0 0;
   border: 3px solid #666;
   margin: auto;
   padding: 5px;
@@ -260,5 +273,6 @@ img {
   height: 18%;
   overflow: auto;
 }
-
-
+#toshow {
+    display: none;
+}

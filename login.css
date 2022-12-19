@@ -1,0 +1,32 @@
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+textarea {
+    width: 20vw;
+    height: 2vw;
+}
+
+span {
+    color: white;
+    font-size: x-large;
+}
+
+.btn-reg {
+    font-size: x-large;
+    color: white;
+    background-color: blue;
+    width: 15vw;
+    height: 4vw;
+}
+.btn-log {
+    font-size: x-large;
+    color: white;
+    background-color:#1bb341;
+    width: 15vw;
+    height: 4vw;
+}
+input {
+    background-color: #f2f2f2;
+    width: 20vw;
+}

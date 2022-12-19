@@ -8,3 +8,8 @@ function handleScroll() {
     document.getElementById("progressBar").style.width = scrolled + "%";
 }
 $( ".scroll" ).scroll( 300 );
+
+function popup() {
+    document.querySelector("#toshow").style.display = "inline";
+    document.querySelector("#tohid").style.display = "none";
+}
