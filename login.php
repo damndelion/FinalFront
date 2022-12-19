@@ -26,7 +26,7 @@ if(isset($_POST['email'])){
         exit;
     }
     else{
-        echo "Wrong data!";
+        header('Location: login.html');
     }
 }
 ?>
