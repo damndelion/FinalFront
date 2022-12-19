@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="index.css" >
-    <link rel="stylesheet" type="text/css" href="men.css" >
+    <link rel="stylesheet" type="text/css" href="women.css" >
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
@@ -16,141 +16,6 @@
     
     <title>Document</title>
     
-    <style>
-       body{
-        background-color: rgb(221, 204, 183);
-       }
-        ul.b {
-  list-style-type: square;
-  color: rgb(245, 242, 235);
-}
-ul.b1 {
-  list-style-type: square;
- margin-left: 800px;
-}
-.lists{
-  display: flex;
- 
-}
-
-.lists  a {
-    text-decoration: none;
-    color: rgb(223, 150, 14);
-    font-size: 1.3em;
-
-}
-
-.lists  a:hover{
-    color: #f18a04 ;
-}
-.in{
-    display:block; width: 1200px; margin-left: 170px;
-}
-.in strong{
-    color:orange;
-}
-.in p{
-color: rgb(82, 71, 71);
-}
-* {box-sizing: border-box}
-body {font-family: Verdana, sans-serif; margin:0}
-.mySlides {display: none}
-img {vertical-align: middle;margin-left: 100px;}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active, .dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .prev, .next,.text {font-size: 11px}
-}
-#img1{
-  width: 300px;
-  height: 350px;
-}
-#img2{
-  width: 300px;
-  height: 350px;
-}
-    </style>
 </head>
 <body>
     <div class="head">
@@ -256,6 +121,7 @@ img {vertical-align: middle;margin-left: 100px;}
           <span class="dot" onclick="currentSlide(1)"></span> 
           <span class="dot" onclick="currentSlide(2)"></span> 
           <span class="dot" onclick="currentSlide(3)"></span> 
+          <span class="dot" onclick="currentSlide(4)"></span> 
         </div>
         
        
@@ -274,23 +140,42 @@ img {vertical-align: middle;margin-left: 100px;}
         <i id="icon2" class="bi bi-discord"></i>
     </div>
     <hr>
-    <div class="bottom">
-        <div class="bottom1">
-            <a class="top">Help</a>
-            <a class="others">Returns Information</a>
-            <a class="others">Shipping Information</a>
-            <a class="others">Contact us</a>
+
+    <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="footer-col-1">
+              <h3>Download Our App</h3>
+              <p>Download App for Android and IOS mobile phone.</p>
+              <div class="app-logo">
+                <img src="img/app-store.png">
+                <img src="img/play-store.png" >
+              </div>
+            </div>
+            
+            <div class="footer-col-3">
+              <h3>Usefule Links</h3>
+              <ul>
+                <li>Coupons</li>
+                <li>Blog Post</li>
+                <li>Return Policy</li>
+                <li>Join Affiliate</li>
+              </ul>
+            </div>
+            <div class="footer-col-4">
+              <h3>Follow us</h3>
+              <ul>
+                <li>Facebook <i class="fa fa-facebook-official"></i> </li>
+                <li>Twitter <i class="fa fa-twitter"></i> </li>
+                <li>Instagram <i class="fa fa-instagram"></i> </li>
+                <li>Youtube <i class="fa fa-youtube-play"></i> </li>
+              </ul>
+            </div>
+          </div>
+          <hr>
+          <p class="copyright"> Copyright 2022 - damndelion.github.io</p>
         </div>
-        <div class="bottom1">
-            <a class="top">Privacy & Legal</a>
-            <a class="others">Privacy Policy</a>
-            <a class="others">Terms & Condition</a>
-        </div>
-        <div class="bottom1">
-            <a class="top">Other Services</a>
-            <a class="others">Media and Press</a>
-            <a class="others">The company</a>
-            <a class="others">Job Opportunitys</a>
+      </div>
         </div>
     </div>
 </body>
