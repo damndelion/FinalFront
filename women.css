@@ -1,0 +1,48 @@
+.body {
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.underline {
+    text-decoration: underline;
+    font-size: 1.5vw;
+}
+.heading {
+    font-size: 2vw;
+
+}
+.body-main {
+    display: flex;
+   
+    justify-content: center;
+}
+.body-top {
+    display: flex;
+    justify-content: center;
+}
+.body-text {
+    display: flex;
+    flex-direction: row;
+    margin-left : 11%;
+}
+.section {
+    margin: 3%;
+}
+.body-content {
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 1vw;
+}
+.body-content2 {
+    margin-left: 4%;
+    margin-right: 4%;
+    font-size: 2vw;
+}
+.body-bottom {
+    display: flex;
+    justify-content: center;
+}
+.body-bottom2 {
+    display: flex;
+    justify-content: center;
+}
