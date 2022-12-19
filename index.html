@@ -19,11 +19,9 @@
             <textarea placeholder="Search for product or brand" class="search"></textarea>
         </div>
         <div class="sub-head2">
-            <i id="icon" class="bi bi-person-circle"></i>
-            <a class="menu-text">My account</a>
-            <a class="menu-text">Help</a>
-            <i id="icon" class="bi bi-bag"></i>
-            <i id="icon" class="bi bi-heart"></i>
+            <a id="icon" href="login.html"><i class="bi bi-person-circle"></i></a>
+            <a id="icon" href="login.html"><i class="bi bi-bag"></i></a>
+            <a id="icon" href="login.html"><i class="bi bi-heart"></i></a>
             <button id="button" class="btn-log"  type="button"><a class="login" href="login.html">Log in</a></button>
             <button id="button" class="btn-sig"><a class="login" href="login.html">Sign up</a></button>
         </div>
@@ -88,46 +86,34 @@
     <hr>
     <p style="text-align:center">Our Social Networks</p>
     <div class="social">
-        <i id="icon2" class="bi bi-instagram"></i>
-        <i id="icon2" class="bi bi-facebook"></i>
-        <i id="icon2" class="bi bi-pinterest"></i>
-        <i id="icon2" class="bi bi-twitter"></i>
-        <i id="icon2" class="bi bi-twitch"></i>
-        <i id="icon2" class="bi bi-discord"></i>
+        <i id="icon2" onclick="window.location.href='https://www.instagram.com'" class="bi bi-instagram"></i>
+        <i id="icon2" onclick="window.location.href='https://web.facebook.com'" class="bi bi-facebook"></i>
+        <i id="icon2" onclick="window.location.href='https://www.pinterest.com'" class="bi bi-pinterest"></i>
+        <i id="icon2" onclick="window.location.href='https://twitter.com'" class="bi bi-twitter"></i>
+        <i id="icon2" onclick="window.location.href='https://www.twitch.tv'" class="bi bi-twitch"></i>
+        <i id="icon2" onclick="window.location.href='https://discord.com'" class="bi bi-discord"></i>
     </div>
     <hr>
     <div class="bottom">
         <div class="bottom1">
             <a class="top">Help</a>
-            <a class="others">Returns Information</a>
-            <a class="others">Shipping Information</a>
-            <a class="others">Contact us</a>
+            <a href="https://en.wikipedia.org/wiki/Return_policy" class="others">Returns Information</a>
+            <a href="https://www.fedex.com/ru-ru/home.html" class="others">Shipping Information</a>
+            <a href="" class="others">Contact us</a>
         </div>
         <div class="bottom1">
-            <a class="top">Privacy & Legal</a>
-            <a class="others">Privacy Policy</a>
-            <a class="others">Terms & Condition</a>
+            <a href="https://en.wikipedia.org/wiki/Privacy_law" class="top">Privacy & Legal</a>
+            <a href="https://en.wikipedia.org/wiki/Privacy_law" class="others">Privacy Policy</a>
+            <a href="https://en.wikipedia.org/wiki/Terms_of_service" class="others">Terms & Condition</a>
         </div>
         <div class="bottom1">
-            <a class="top">Other Services</a>
-            <a class="others">Media and Press</a>
-            <a class="others">The company</a>
-            <a class="others">Job Opportunitys</a>
+            <a href="https://www.instagram.com" class="top">Other Services</a>
+            <a href="https://www.instagram.com" class="others">Media and Press</a>
+            <a href="https://www.instagram.com" class="others">The company</a>
+            <a href="https://www.instagram.com" class="others">Job Opportunitys</a>
         </div>
     </div>
-    <script>
-        window.addEventListener('scroll', handleScroll);
-
-function handleScroll() {
-    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;  
-    var scrolled = (winScroll / height) * 100;
   
-    document.getElementById("progressBar").style.width = scrolled + "%";
-}
-
-$( ".scroll" ).scroll( 300 );
-    </script>
 </body>
 
 </html>
