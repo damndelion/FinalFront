@@ -12,27 +12,30 @@
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=neon|outline|emboss|shadow-multiple">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <title>Document</title>
+    <script  src="women.js"></script>
     <script>
         $(document).ready(function(){
-  $("#img1").click(function(){
-    $("#img1").animate({
-      left: '50px',
-      height: '400px',
-      width: '400px'
+    $("#img1").click(function(){
+      $("#img1").animate({
+        left: '50px',
+        height: '400px',
+        width: '400px'
+      });
     });
   });
-});
-$(document).ready(function(){
-  $("#img2").click(function(){
-    $("#img2").animate({
-      left: '50px',
-      height: '400px',
-      width: '400px'
+  $(document).ready(function(){
+    $("#img2").click(function(){
+      $("#img2").animate({
+        left: '50px',
+        height: '400px',
+        width: '400px'
+      });
     });
   });
-});
+
     </script>
+    <title>Document</title>
+    
     <style>
        body{
         background-color: rgb(221, 204, 183);
@@ -275,37 +278,7 @@ img {vertical-align: middle;margin-left: 100px;}
           <span class="dot" onclick="currentSlide(3)"></span> 
         </div>
         
-        <script>
-        
-        let slideIndex = 1;
-        showSlides(slideIndex);
-        
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-        
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-        
-        function showSlides(n) {
-          let i;
-          let slides = document.getElementsByClassName("mySlides");
-          let dots = document.getElementsByClassName("dot");
-          if (n > slides.length) {slideIndex = 1}    
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-            slides[i].style.display = "none";  
-          }
-          for (i = 0; i < dots.length; i++) {
-            dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " active";
-        }
-        </script>
-
-
+       
 
 
 
