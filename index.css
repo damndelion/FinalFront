@@ -207,16 +207,7 @@ img {
     font-size:x-large;
 
 }
-.login2 {
-    color:rgb(221, 204, 183);
-    text-decoration: none;
-    font-size:1.5vw ;
-}
-.login2:hover {
-    text-decoration: none;
-    color:#e3a252;
-    font-size:x-large;
-}
+
 .btn-log{
     color: white;
     background-color: rgb(8, 110, 8);
@@ -273,9 +264,7 @@ img {
   height: 18%;
   overflow: auto;
 }
-#toshow {
-    display: none;
-}
+
 .footer{
 	background: #000;
 	color: #8a8a8a;
