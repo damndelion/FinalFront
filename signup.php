@@ -31,7 +31,7 @@ if(isset($_POST['email'])){
         exit();
     }
     else{
-        echo "Wrong!";
+        header('Location: login.html');
     }
 }
 ?>
