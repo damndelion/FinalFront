@@ -208,16 +208,18 @@ img {
 
 }
 .login2 {
-    color:white;
+    color:rgb(221, 204, 183);
     text-decoration: none;
     font-size:1.5vw ;
 }
 .login2:hover {
     text-decoration: none;
+    color:#e3a252;
+    font-size:x-large;
 }
 .btn-log{
     color: white;
-    background-color: #1bb341;
+    background-color: rgb(8, 110, 8);
     width: 8vw;
     height: 4vw;
 }
@@ -226,7 +228,7 @@ img {
 }
 .btn-sig{
     color: white;
-    background-color: grey;
+    background-color: rgb(123, 119, 119);
     width: 8vw;
     height: 4vw;
 
